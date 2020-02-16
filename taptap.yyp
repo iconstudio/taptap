@@ -58,7 +58,7 @@
             "Key": "2223038f-c8a0-4405-aa2c-c8b0f9853725",
             "Value": {
                 "id": "b12acc7a-2239-4015-97ab-c80d1441517a",
-                "resourcePath": "rooms\\roomInit_Child_0\\roomInit_Child_0.yy",
+                "resourcePath": "rooms\\roomGame\\roomGame.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -84,6 +84,14 @@
                 "id": "5dc3c5d8-9b15-4e20-b01f-87177c4d0838",
                 "resourcePath": "views\\384b477f-c2b1-4709-baad-e029826efe0e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "416b864d-75d4-404a-9361-08e06a815540",
+            "Value": {
+                "id": "c39c6bcd-58f2-4d96-95c2-e4ba29e93d67",
+                "resourcePath": "objects\\oGameManager\\oGameManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -244,6 +252,14 @@
                 "id": "7e146750-3889-4026-92e6-59b1b3ae855a",
                 "resourcePath": "views\\d133a810-4edc-4e9e-9702-cb2bca40a9eb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d7a735cc-2c02-4326-84a2-8d2bb21adb25",
+            "Value": {
+                "id": "35671c2c-3f03-4fc2-b54e-56bbd2e9d7a6",
+                "resourcePath": "objects\\oTapPad\\oTapPad.yy",
+                "resourceType": "GMObject"
             }
         },
         {

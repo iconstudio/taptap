@@ -2,7 +2,6 @@
 loading_failed = true
 #region 외부 파일
 global.file_profile = "player.dat"
-
 global.file_settings = "options.json"
 global.settings = ds_map_create()
 //setting_load()
@@ -56,26 +55,15 @@ if !audio_group_is_loaded(audiogroup_default) {
 }
 #endregion
 
-#region 쉐이더
-global.shader_supported = shaders_are_supported()
-if !global.shader_supported
-	show_debug_message("shader is not surpported. Be careful!")
-#endregion
-
 #region 그래픽
 gpu_set_ztestenable(true)
 gpu_set_zwriteenable(true)
 #endregion
 
 #region 게임
-enum player {
-	human,
-	cpu1,
-	cpu2,
-	cpu3,
-	cpu4,
-	neutral
-}
+global.game_stage = 0
+global.game_score = 0
+global.game_combo = 0
 #endregion
 
 #region 네트워크
