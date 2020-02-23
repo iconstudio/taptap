@@ -1,7 +1,7 @@
 /// @description 설정 적용, 관리 객체 생성 및 룸 넘어가기
 display_width = display_get_width()
 display_height = display_get_height()
-display_set_gui_size(global.resolutions_default[0], global.resolutions_default[1])
+//display_set_gui_size(global.resolutions_default[0], global.resolutions_default[1])
 window_width = window_get_width()
 window_height = window_get_height()
 

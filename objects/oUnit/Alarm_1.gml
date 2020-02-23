@@ -2,7 +2,7 @@
 if (create_counter > 0) {
     create_counter -= 1;
     count -= 1;
-    inst = instance_create(x,y,objForceP);
+    inst = instance_create_depth(x,y,0,objForceP);
     inst.speed = 3;
     inst.direction = point_direction(x,y,target.x,target.y);
     inst.target = target;

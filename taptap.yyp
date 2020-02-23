@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "eff5d5b4-3980-4c52-b91b-1883d2155bec",
+            "Value": {
+                "id": "5d45259b-df94-4a69-ba67-bf71fa588095",
+                "resourcePath": "sprites\\sTapPad\\sTapPad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "c53e781b-a4d1-4c5e-b202-fa6d9a2b1526",

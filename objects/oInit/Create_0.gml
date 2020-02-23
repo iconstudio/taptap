@@ -114,4 +114,4 @@ if !global.network_available {
 #endregion
 
 if audio_loaded and !loading_failed
-	event_user(0)
+	alarm[0] = 1
