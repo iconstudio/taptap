@@ -10,9 +10,9 @@ pad_padding_y = 24
 pad_size = sprite_get_width(sTapPad)
 
 pads_width = pad_size * pad_number_horizontal + pad_padding_x * (pad_number_horizontal - 1)
-pads_height = pad_size * pad_number_vertical + pad_padding_y * (pad_number_horizontal - 1)
-pad_x = (width - pads_width) * 0.5
-pad_y = (height - pads_height) * 0.5
+pads_height = pad_size * pad_number_vertical + pad_padding_y * (pad_number_vertical - 1)
+pad_x = (width - pads_width) * 0.5 + pad_size * 0.5
+pad_y = (height - pads_height) * 0.5 + pad_size * 0.5
 
 pads = ds_grid_create(pad_number_horizontal, pad_number_vertical)
 var current_pad = noone
@@ -26,4 +26,5 @@ for (var i = 0; i < pad_number_horizontal; ++i) {
 	}
 
 	current_x += pad_size + pad_padding_x
+	current_y = pad_y
 }
