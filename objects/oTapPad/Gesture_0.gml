@@ -1,0 +1,3 @@
+if tappable {
+	tappable = false
+}
