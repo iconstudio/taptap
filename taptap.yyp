@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0bbbc49f-57af-4281-a8ad-f5bc0e5ffb93",
+            "Value": {
+                "id": "7a906b04-6b82-4fa5-b71a-42cd4216e53b",
+                "resourcePath": "scripts\\pad_get_id\\pad_get_id.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0d4ca478-5864-4f43-a46a-d3f498ae7a21",
             "Value": {
                 "id": "f0fa9a25-5ae9-4e1f-8e5b-56ba7d7a0fe0",
@@ -44,6 +52,14 @@
                 "id": "9d191a6b-411f-4b0b-9d01-26bb15a70744",
                 "resourcePath": "views\\8db60fd0-f782-495f-b358-7db725fa4413-room.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "166d1f39-5808-47ae-b712-ef8a4a859d7c",
+            "Value": {
+                "id": "8adc451d-e7c7-4d0c-ad11-633e1c9008dd",
+                "resourcePath": "scripts\\pad_make_tappable\\pad_make_tappable.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -325,11 +341,22 @@
                 "resourcePath": "views\\f4823b32-8b69-46e0-9650-f196de1f74ce.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "f7d689a7-5124-4b7f-852f-b846f2daa5a4",
+            "Value": {
+                "id": "193e6947-d26f-4796-b12d-a8ae11c3c594",
+                "resourcePath": "scripts\\pad_get_random_id\\pad_get_random_id.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
         "6d508e59-70ba-4c8c-b235-cd39cacf9bb8",
-        "42ad0f90-da33-4bb6-8a76-74d2489e3c07"
+        "166d1f39-5808-47ae-b712-ef8a4a859d7c",
+        "42ad0f90-da33-4bb6-8a76-74d2489e3c07",
+        "0bbbc49f-57af-4281-a8ad-f5bc0e5ffb93",
+        "f7d689a7-5124-4b7f-852f-b846f2daa5a4"
     ],
     "tutorial": ""
 }
