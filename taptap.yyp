@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "583cda4d-f5b4-4da2-b392-3bfb641b0fff",
+            "Value": {
+                "id": "781c63ae-e0d6-4278-82b4-3d4d97626dc5",
+                "resourcePath": "scripts\\pad_make_untappable\\pad_make_untappable.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6a56f541-ec57-46ff-918e-a37f321f9841",
             "Value": {
                 "id": "27b11eac-eac5-4f8d-a0ad-328cc3bf8e25",
@@ -354,6 +362,7 @@
     "script_order": [
         "6d508e59-70ba-4c8c-b235-cd39cacf9bb8",
         "166d1f39-5808-47ae-b712-ef8a4a859d7c",
+        "583cda4d-f5b4-4da2-b392-3bfb641b0fff",
         "42ad0f90-da33-4bb6-8a76-74d2489e3c07",
         "0bbbc49f-57af-4281-a8ad-f5bc0e5ffb93",
         "f7d689a7-5124-4b7f-852f-b846f2daa5a4"

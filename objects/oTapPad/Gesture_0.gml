@@ -1,3 +1,3 @@
 if tappable {
-	tappable = false
+	pad_make_untappable(id)
 }
